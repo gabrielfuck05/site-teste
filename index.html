@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Uma pequena surpresa feita especialmente para você.">
+  <title>Para My Dama, com Amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#inicio">my dama<span> ♥</span></a>
+    <span class="top-note">FEITO COM AMOR</span>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <p class="eyebrow reveal">UM PRESENTE SÓ SEU</p>
+      <h1 class="reveal">My Dama,<br>se eu pudesse escolher,<br><em>seria você.</em></h1>
+      <p class="hero-copy reveal">Entre tantos caminhos, coincidências e encontros, a vida me deu a sorte de encontrar você, My Dama.</p>
+      <a class="text-link reveal" href="#nossa-historia">Entre na nossa história <span>↓</span></a>
+      <div class="hero-image reveal">
+        <!-- Troque foto1.jpg pela sua foto favorita -->
+        <img src="fotos/foto1.jpg" alt="Uma lembrança especial de nós dois" onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none'">
+        <div class="placeholder-label">SUA FOTO FAVORITA AQUI</div>
+        <span class="image-caption">meu lugar favorito é ao seu lado.</span>
+      </div>
+    </section>
+
+    <section class="intro section-wrap reveal" id="nossa-historia">
+      <p class="eyebrow">CAPÍTULO 01 · NÓS</p>
+      <h2>Algumas coisas<br>simplesmente <em>fazem sentido.</em></h2>
+      <p>My Dama, você chegou e, de um jeito só seu, transformou momentos comuns em lembranças que eu quero guardar para sempre. Este pequeno espaço é uma forma de te lembrar do quanto você é especial para mim.</p>
+    </section>
+
+    <section class="gallery section-wrap">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">PEQUENOS INFINITOS</p>
+          <h2>Momentos que são <em>nossos.</em></h2>
+        </div>
+        <span class="gallery-count">01 — 03</span>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card photo-tall reveal">
+          <img src="fotos/foto2.jpg" alt="Outra lembrança especial" onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none'">
+          <div class="placeholder-label">FOTO 02</div>
+          <figcaption>Um dia que eu guardaria de novo.</figcaption>
+        </figure>
+        <figure class="photo-card reveal">
+          <img src="fotos/foto3.jpg" alt="Uma lembrança feliz juntos" onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none'">
+          <div class="placeholder-label">FOTO 03</div>
+          <figcaption>Seu sorriso é um dos meus lugares favoritos.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="counter-section">
+      <div class="counter-inner section-wrap reveal">
+        <p class="eyebrow">DESDE O NOSSO SIM</p>
+        <h2>O tempo passa.<br>Meu amor por você <em>continua.</em></h2>
+        <p class="counter-intro">E desde aquele dia, a vida ganhou um capítulo que eu nunca quero terminar.</p>
+        <div class="counter" aria-live="polite">
+          <div><strong id="days">—</strong><span>DIAS</span></div>
+          <div><strong id="hours">—</strong><span>HORAS</span></div>
+          <div><strong id="minutes">—</strong><span>MINUTOS</span></div>
+          <div><strong id="seconds">—</strong><span>SEGUNDOS</span></div>
+        </div>
+        <p class="since" id="since-label">Nossa história começou em uma data especial.</p>
+      </div>
+    </section>
+
+    <section class="letter-section section-wrap">
+      <div class="letter-card reveal">
+        <p class="eyebrow">CAPÍTULO 02 · DE MIM PARA VOCÊ</p>
+        <div class="letter-mark">“</div>
+        <h2>Uma carta<br><em>para o meu amor.</em></h2>
+        <p class="letter-preview">Tem coisas que eu nem sempre consigo explicar olhando nos seus olhos. Então, escrevi um pouquinho do que mora aqui dentro.</p>
+        <button class="primary-button" id="open-letter" type="button" aria-expanded="false" aria-controls="letter-content">Abrir minha carta <span>↗</span></button>
+        <div class="letter-content" id="letter-content" hidden>
+          <p>My Dama,</p>
+          <p>Eu queria que você pudesse se enxergar pelos meus olhos, nem que fosse por um instante. Talvez assim entendesse o quanto é especial, o quanto seu sorriso muda meu dia e o quanto sua presença faz diferença na minha vida, My Dama.</p>
+          <p>Obrigado por dividir seus dias comigo, pelas risadas, pelo carinho e por cada lembrança que estamos construindo. Não preciso que tudo seja perfeito; só quero continuar vivendo as coisas da vida ao seu lado, aprendendo com você e escolhendo você todos os dias.</p>
+          <p>Se este site pudesse guardar uma única coisa, eu queria que guardasse isto: você é muito importante para mim. E, entre todas as coisas bonitas que a vida poderia me dar, sou muito feliz por ter encontrado você.</p>
+          <p class="letter-signoff">Com todo o meu amor,<br><em>seu namorado. ♥</em></p>
+          <p class="edit-note">Dica: personalize esta carta no arquivo index.html para ficar com a sua cara.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="music-section section-wrap reveal">
+      <div class="music-disc" aria-hidden="true"><span>♫</span></div>
+      <div class="music-copy">
+        <p class="eyebrow">A NOSSA TRILHA SONORA</p>
+        <h2>A nossa música,<br><em>mil lembranças.</em></h2>
+        <p>Charlie Brown Jr. — “Vem Ser Minha”. Coloque essa música na trilha sonora do nosso cantinho.</p>
+        <button class="music-button" id="music-toggle" type="button">▶ <span>Ouvir nossa música</span></button>
+        <p class="music-hint" id="music-hint">Música escolhida: Charlie Brown Jr. — Vem Ser Minha. Adicione um arquivo de áudio autorizado à pasta musica para ativar o player.</p>
+        <audio id="our-song" preload="none">
+          <source src="musica/nossa-musica.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </section>
+
+    <section class="final-note section-wrap reveal">
+      <span class="tiny-heart">♥</span>
+      <h2>Que sorte a minha<br><em>ter você.</em></h2>
+      <p>Este site termina aqui. O que sinto por você, não.</p>
+      <a class="text-link" href="#inicio">Voltar ao começo ↑</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>FEITO COM AMOR, PARA VOCÊ.</span>
+    <span>♥</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
