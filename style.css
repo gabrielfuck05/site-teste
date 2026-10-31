@@ -113,3 +113,12 @@ h2 { font-size: clamp(38px, 5.8vw, 65px); }
   .music-copy > p:not(.eyebrow):not(.music-hint) { margin-inline: auto; }
   .final-note { padding-bottom: 90px; }
 }
+.hero-image img,
+.photo-card img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
